@@ -1,6 +1,6 @@
 variable "region" {
   type = string
-  default = "asia-northeast-1"
+  default = "ap-northeast-1"
 }
 
 variable "access_key" {
