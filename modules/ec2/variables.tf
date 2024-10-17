@@ -8,3 +8,14 @@ variable "instance_type" {
   default = "t2.micro"
 }
 
+variable "key_name" {
+  type = string
+}
+
+variable "subnet_id" {
+  type = string
+}
+
+variable "sg_ids" {
+  type = list(string)
+}
